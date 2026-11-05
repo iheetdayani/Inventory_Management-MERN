@@ -1,0 +1,72 @@
+### Create Inventory
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "productName": "Campus Shoes sports",
+  "category": "Shopping",
+  "purchasePrice": 2300,
+  "sellingPrice": 2700,
+  "quantity": 10,
+  "reorderLevel": 10,
+  "supplier": "keyur shah"
+}
+### Product 2
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "productName": "Electric Kettle",
+  "category": "Home",
+  "purchasePrice": 1200,
+  "sellingPrice": 1500,
+  "quantity": 15,
+  "reorderLevel": 5,
+  "supplier": "Raj Electronics"
+}
+
+### Product 3
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "productName": "Wireless Mouse",
+  "category": "Electronics",
+  "purchasePrice": 450,
+  "sellingPrice": 650,
+  "quantity": 30,
+  "reorderLevel": 10,
+  "supplier": "Amit Traders"
+}
+
+### Product 4
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "productName": "Office Chair",
+  "category": "Furniture",
+  "purchasePrice": 2500,
+  "sellingPrice": 3200,
+  "quantity": 8,
+  "reorderLevel": 3,
+  "supplier": "Comfort Furniture"
+}
+
+### Product 5
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "productName": "LED Bulb",
+  "category": "Electrical",
+  "purchasePrice": 100,
+  "sellingPrice": 150,
+  "quantity": 4,
+  "reorderLevel": 10,
+  "supplier": "Bright Lights Supplier"
+}
+###
+GET http://localhost:5000/api/products
+###
+GET http://localhost:5000/api/products/6ad9805dbb94239d541131fd
